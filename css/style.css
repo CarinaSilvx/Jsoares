@@ -603,6 +603,13 @@ img {
 @media (max-width: 768px) {
     .mobile-menu { display: block; }
 
+    .logo { display: none; }
+
+    .logo-navbar img {
+        margin-left: 0 !important;
+        width: 50px !important;
+    }
+
     .navbar {
         position: fixed;
         top: 80px;
